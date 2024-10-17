@@ -4,33 +4,33 @@ int main() {
     int numero = 0;
     
 
-    // printf("entre com um numero: ");
+    printf("entre com um numero: ");
     int deu_certo = scanf ("%i", &numero);
 
-    // int e_divisivel_por_2 = numero % 2 == 0;
+    int e_divisivel_por_2 = numero % 2 == 0;
 
 
-    // //if completo
-    // if (e_divisivel_por_2) {
-    //     printf("O numero %i eh par!\n", numero);
-    // } else {
-    //     printf("O numero %i eh impar!\n", numero);
-    // }
+    //if completo
+    if (e_divisivel_por_2) {
+        printf("O numero %i eh par!\n", numero);
+    } else {
+        printf("O numero %i eh impar!\n", numero);
+    }
 
-    // int idade = 0;
-    // printf("entre com a sua idade: ");
-    // deu_certo = scanf("%i", &idade);
+    int idade = 0;
+    printf("entre com a sua idade: ");
+    deu_certo = scanf("%i", &idade);
 
-    // //if aninhado
-    // if (idade<16){
-    //     printf("Voce naum pode votar!\n");
-    // } else {
-    //     if (idade <18 || idade >70){
-    //         printf("Voce pode votar!\n");
-    //     }else {
-    //         printf("Voce e obrigado a votar!\n");
-    //     }
-    // }
+    //if aninhado
+    if (idade<16){
+        printf("Voce naum pode votar!\n");
+    } else {
+        if (idade <18 || idade >70){
+            printf("Voce pode votar!\n");
+        }else {
+            printf("Voce e obrigado a votar!\n");
+        }
+    }
 
     float media = 0.0f;
     printf("Entre com sua media final: ");
