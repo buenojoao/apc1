@@ -20,7 +20,7 @@ int main (void) {
             menor = numero;
         }
 
-        scanf("%i", numero);
+        scanf("%i", &numero);
     }
     
     printf("%i, %i", maior, menor);
